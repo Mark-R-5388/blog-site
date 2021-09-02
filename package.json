@@ -1,18 +1,15 @@
 {
   "name": "blog-site",
   "version": "1.0.0",
-  "description": "a blog site about me and my coding journey",
-  "main": "index.js",
+  "description": "my blog site",
+  "main": ".eleventy.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx eleventy --serve"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Mark-R-5388/blog-site.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "@11ty/eleventy": "^0.12.1"
   }
 }

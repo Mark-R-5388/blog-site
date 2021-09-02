@@ -1,0 +1,12 @@
+{% extends "layouts/base.html" %} {% block content %}
+<article>
+    <h1>{{title}}</h1>
+    <img src={{intro.me}} alt={{intro.mealt}}>
+    <h1>{{intro.header1}}</h1>
+    <h3>{{intro.header2}}</h3>
+    <p>{{intro.paragraph1}}</p>
+    <p>{{intro.paragraph2}}</p>
+    <p>{{intro.exitStatement}}</p>
+    <button>{{intro.buttonExit}}</button>
+</article>
+{% endblock %}
